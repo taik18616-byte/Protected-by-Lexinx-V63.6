@@ -28,6 +28,7 @@ end
 
 local response = request({
     Url = API,
+
     Method = "POST",
 
     Headers = {
@@ -56,7 +57,6 @@ if not success or not data.ok then
 end
 
 local player = Players.LocalPlayer
-
 local character =
     player.Character or player.CharacterAdded:Wait()
 
