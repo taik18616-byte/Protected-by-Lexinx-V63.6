@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 
 local API =
-    "https://l3xinx-api.onrender.com"
+    "https://l3xinx-api.onrender.com/api/sound"
 
 local TOKEN = "LEXINX_V50_8f91c2a84d0e5b31"
 
